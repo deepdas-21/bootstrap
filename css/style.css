@@ -1,0 +1,13 @@
+/* carousel */
+
+.carousel-caption{
+    top: 30%;
+}
+
+.btn-purple{
+    background-color:#5808ec;
+}
+
+.btn-purple:hover{
+    background-color: #7e08ec;
+}
