@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!--Custom CSS-->
     <link rel="stylesheet" href="css/style.css">
-    <!--font awesome-->
-    <script src="https://kit.fontawesome.com/c0e8ede1bf.js" crossorigin="anonymous"></script>
+    
 </head>
 <body>
     <!--Header section-->
@@ -19,7 +18,7 @@
             <a class="navbar-brand" href="">
                 <img src="images/logo.png" alt="LOGO">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarSupportedContent" aria-expanded="false" aria-label="toggle-navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false" aria-label="toggle-navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -54,8 +53,8 @@
             <div class="carousel-inner">
               <div class="carousel-item active position-relative">
                 <img src="images/background.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block position-absolute">
-                    <h1 class="display-4 font-weight-normal">BOOTSTRAP</h1>
+                <div class="carousel-caption d-none d-sm-block position-absolute">
+                    <h1 class="font-weight-normal">BOOTSTRAP</h1>
                     <h4>Complete Website Layout</h4>
                     <button class="btn btn-outline-light mt-1">VIEW DEMO</button>
                     <button class="btn btn-purple text-white mt-1">Get Started</button>
@@ -95,25 +94,42 @@
             </div>
     </header>
 
-    <main>
-        <div class="container text-center font-weight-normal w-75 mt-4 mb-4">
+    <main class="margin">
+        <div class="container text-center font-weight-normal w-75">
             <h1>Built with Ease</h1>
         <hr>
         <p>Welcome to my Bootstrap 4 tutorial!Bootstrap is a Free and Open Source Front-End Library with HTML and CSS Based Designs</p>
         </div>
+
+
         <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-xs-12 col-sm-6">
-                   <i class=""></i>
-                    
+            <div class="row margin">
+                <div class="col-md-4 col-xs-12 col-sm-6 text-center mt-4">
+                    <h3>HTML5</h3>
+                    <p>BUild with the Latest Version of HTML,HTML5</p>
                 </div>
-                <div class="col-md-4 xs-12 sm-6">
-                   
-                    
+                <div class="col-md-4 col-xs-12 col-sm-6 text-center mt-4">
+                    <h3>BOOTSTRAP</h3>
+                    <p>BUild with the Latest Version of Bootstrap,Bootstrap4</p>
                 </div>
-                <div class="col-md-4 sm-12">
-                    
-                    
+                <div class="col-md-4 col-sm-12 text-center mt-4">
+                    <h3>CSS3</h3>
+                    <p>BUild with the Latest Version of CSS,CSS3</p>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                       <h3>If You Build It...</h3>
+                       <p>The Colomns will be automatically on top of each other when the screen size is less than 576 px wide..</p>
+                       <p>Resize the Browser Window to see the effect.Responsive Web Design has become more important as the amount of mobile traffic now accounts for more than half of the total nternet traffic</p> 
+                       <p>It can also display the web page differentlydepending on the screen size or Viewing device.</p>
+                       <button class="btn btn-purple font-weight-normal text-white mb-4">Learn More</button>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="images/desk.png" class="w-100 h-100">
+                    </div>
                 </div>
             </div>
         </div>
