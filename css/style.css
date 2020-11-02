@@ -20,3 +20,14 @@ hr{
     margin-top: 80px;
     margin-bottom: 80px;
 }
+
+.mac-bg{   
+    background-image: url("../images/mac.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blue-shade{
+color: rgba(5, 195, 253, 0.8); 
+height: 300px;
+}
