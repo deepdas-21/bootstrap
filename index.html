@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!--Custom CSS-->
     <link rel="stylesheet" href="css/style.css">
-    
+    <!--font awesome-->
+    <script src="https://kit.fontawesome.com/c0e8ede1bf.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!--Header section-->
@@ -24,20 +25,20 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link"href="">Home</a> 
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link"href="">About</a>
+                        <a class="nav-link"href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link"href="">Services</a>
+                        <a class="nav-link"href="#services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link"href="">Team</a>
+                        <a class="nav-link"href="#team">Team</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link"href="">Connect</a>
+                        <a class="nav-link"href="#connect">Connect</a>
                     </li>
     
                 </ul>
@@ -78,7 +79,7 @@
           </div>
         </div>
             <!--Jumbotron-->
-            <div class="jumbotron jumbotron-fluid">
+            <div class="jumbotron jumbotron-fluid" >
                 <div class="container">
                     <div class="row">
                         <div class="col-md-9">
@@ -94,7 +95,7 @@
             </div>
     </header>
     <!--Features-->
-    <main class="margin">
+    <main class="margin" id="services">
         <div class="container text-center font-weight-normal w-75">
             <h1>Built with Ease</h1>
         <hr>
@@ -143,7 +144,7 @@
         <button class="btn w-100" type="button" id="dropdownMenuButton" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false">
             click for fun
         </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <div class="dropdown-menu mb-1" aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item mb-1">
                 <div class="row">
                     <div class="col-md-3 col-sm-6 col-xs-12">
@@ -162,10 +163,110 @@
             </a>
         </div>
     </div>
+    <!--Team section-->
+    <div class="container text-center margin"  id="team">
+        <h3 class="font-weight-normal">Meet The Team</h3>
+        <hr>
+        <div class="card-deck text-left margin">
+            <div class="card">
+                <img class="card-img-top" src="images/team1.png">
+                <div class="card-body">
+                    <h5 class="card-title">John Doe</h5>
+                    <p class="card-text">John is an Internet Enterpreneur with almost 20 Years of Experience</p>
+                    <button class="btn btn-outline-dark">See Profile</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="images/team2.png">
+                <div class="card-body">
+                    <h5 class="card-title">Mary Jo</h5>
+                    <p class="card-text">Mary is a Designer with almost 10 Years of Digital Design Experience</p>
+                    <button class="btn btn-outline-dark">See Profile</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="images/team3.png">
+                <div class="card-body">
+                    <h5 class="card-title">Phil Ho</h5>
+                    <p class="card-text">Phil is a developer with 5 Years of Web Development Experience</p>
+                    <button class="btn btn-outline-dark"  id="about">See Profile</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Philosophy-->
+
+    <div class="container  mb-4">
+        <div class="row">
+            <div class="col-lg-6">
+               <h3>Our Philosophy</h3>
+               <p>We know that Greatness in a dipruptive Era requires Bold Ambition ,curious talent and a culture that believes we are smarter Together.</p>
+               <p>We approach every challange holistically,with best-in-class expertise indata,creativity,media,search,social and more.We call this Alchemy.It has the power to build our client's brand and transform their business.And while it may seem as a magic,We've got it down as a science.</p> 
+            </div>
+            <div class="col-lg-6">
+                <img src="images/bootstrap2.png" class="w-100 h-100">
+            </div>
+        </div>
+    </div>
+    <!--Connect-->
+    <div class="container text-center margin" id="connect">
+        <h5 class="mb-4 font-weight-bold">Connect</h5>
+        <div class="row mt-4">
+            <div class="col-sm-1 mt-4"></div>
+            <div class="col-sm-2 mt-4">
+                <a href=""><i class="fab fa-facebook-square fa-2x" style="color: #4267B2;"></i></a>
+            </div>
+            <div class="col-sm-2 mt-4">
+               <a href=""><i class="fab fa-twitter fa-2x"></i></a> 
+            </div>
+            <div class="col-sm-2 mt-4">
+                <a href=""><i class="fab fa-google-plus-g fa-2x" style="color: red;"></i></a>
+            </div>
+            <div class="col-sm-2 mt-4">
+                <a href=""><i class="fab fa-instagram fa-2x"></i></a>
+            </div>
+            <div class="col-sm-2 mt-4">
+                <a href=""><i class="fab fa-youtube fa-2x" style="color: red;"></i></a>
+                <div class="col-sm-1"></div>
+            </div>
+        </div>
+    </div>
     </main>
     
-    <footer>
-
+    <footer class="bg-dark text-white font-weight-lighter mt-4 text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="images/w3newbie.png">
+                    <hr>
+                    <p>555-555-5555</p>
+                    <p>email@myemail.com</p>
+                    <p>100 Street Name</p>
+                    <p>City,State,0000</p>
+                </div>
+                <div class="col-sm-4">
+                    <hr>
+                    <h5>Our Hours</h5>
+                    <hr>
+                    <p>Monday:9AM - 5PM</p>
+                    <p>Saturday:10AM - 4PM</p>
+                    <p>Sunday:Closed</p>
+                </div>
+                <div class="col-sm-4">
+                    <hr>
+                    <h5>Service Area</h5>
+                    <hr>
+                    <p>City,State,0000</p>
+                    <p>City,State,0000</p>
+                    <p>City,State,0000</p>
+                    <p>City,State,0000</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container text-center text-white font-weight-bold">
+            <h5>@W3Schools.com</h5>
+        </div>
     </footer>
 
     
